@@ -1,6 +1,5 @@
-$navbar-default-bg: #312312;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
+$navbar-default-bg: #666666;
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -30,7 +29,19 @@ body {
     margin-left: 25px;
     float: left;
     margin-top: 20px;
+    
 }
+
+.btn {
+    color: white;
+    font-weight: bold;
+}
+
+.btn-lg {
+    color: white;
+}
+
+
 
 .center {
     text-align: center;
